@@ -1,7 +1,7 @@
 const userButter = +prompt('Установите время готовки в секундах');
 const grade = 'Колличество баллов вкусности - ';
 const maxTaste = Math.round(userButter * 0.01) * 100;
-const butTaste = 'Бургер сгорел((';
+const badTaste = 'Бургер сгорел((';
 
 if (userButter < 40) {
     alert(grade + ' ' + userButter);
@@ -16,7 +16,7 @@ if (userButter > 99 && userButter < 120) {
 }
 
 if (userButter > 119) {    
-    alert(butTaste);    
+    alert(badTaste);    
 }
 
 
@@ -26,7 +26,7 @@ if (userButter > 119) {
 // const userButter = +prompt('Установите время готовки в секундах');
 // const grade = 'Колличество баллов вкусности - ';
 // const maxTaste = Math.round(userButter * 0.01) * 100;
-// const butTaste = 'Бургер сгорел((';
+// const badTaste = 'Бургер сгорел((';
 // const data = (userButter >= 0);
 
 // switch (data) {
@@ -40,5 +40,5 @@ if (userButter > 119) {
 //         alert(grade + ' ' + maxTaste);
 //         break;
 //     default:
-//         alert(butTaste);
+//         alert(badTaste);
 // }

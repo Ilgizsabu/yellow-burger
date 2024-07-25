@@ -3,25 +3,25 @@ const grade = 'Колличество баллов вкусности - ';
 const maxTaste = Math.round(userButter * 0.01) * 100;
 const butTaste = 'Бургер сгорел((';
 
-if (userButter <= 39) {
+if (userButter < 40) {
     alert(grade + ' ' + userButter);
 }
 
-if (userButter >= 40 && userButter <= 99) {
+if (userButter > 39 && userButter < 100) {
     alert(grade + ' ' + userButter);
 }
 
-if (userButter >= 100 && userButter <= 120) {    
+if (userButter > 99 && userButter < 120) {    
     alert(grade + ' ' + maxTaste);
 }
 
-if (userButter > 120) {    
+if (userButter > 119) {    
     alert(butTaste);    
 }
 
 
 
-//That is another solution
+//That is first solution
 
 // const userButter = +prompt('Установите время готовки в секундах');
 // const grade = 'Колличество баллов вкусности - ';

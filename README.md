@@ -1,4 +1,4 @@
-# yellow-burger
+# Yellow-burger
 
 **Project: Microwave Program for Sandwiches**
 
